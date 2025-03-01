@@ -15,7 +15,7 @@ def comp_step(func, x, h):
     comp = complex(x,h)
     val = func(comp)
     return val.imag/h
-
+"""
 comp_step1 = []
 two_sided_diff1 = []
 for h in hlist:
@@ -38,5 +38,5 @@ for cont in comp_step1:
 print("The two sided differentiation method:")
 for cont1 in two_sided_diff1:
     print(f"x:{float(cont1[1])}, h:{float(cont1[0])}, Value and Error:", float(cont1[2]), float(cont1[3]))
-
+"""
 
