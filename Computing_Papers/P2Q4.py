@@ -3,7 +3,7 @@ import numpy as np
 
 hlist = [10**(-9),10**(-12),10**(-15)]
 
-xlist = [10**n for n in range(5)]
+xlist = [10**n for n in range(1,5)]
 
 def func(y):
     return y**2*np.sin(y**2)
